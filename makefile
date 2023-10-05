@@ -1,13 +1,6 @@
-OS := $(shell uname)
-ifeq ($(OS),Darwin)
-	CC	= g++-13
-	CFLAGS  = -O3 -std=c++14 -w -march=native -I/opt/homebrew/Cellar/boost/1.82.0_1/include -fopenmp
-   	LDFLAGS =
-else
-	CC      = g++
-	CFLAGS  = -O3 -mavx -march=native -std=c++14 -w -fopenmp
-	LDFLAGS =
-endif
+CC      = g++
+CFLAGS  = -O3 -mavx -march=native -std=c++14 -w -fopenmp
+LDFLAGS =
 
 SOURCES = utils.cpp containers/relation.cpp containers/offsets_templates.cpp containers/offsets.cpp indices/hierarchicalindex.cpp indices/hint_m_subs+sort+ss+cm.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
