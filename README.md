@@ -59,17 +59,9 @@ Reports will be written in the ```outputs``` directory; one file for each experi
 
 ### Real datasets
 
-#### Scripts
-- run_real_vary-qe.sh
-- run_real_vary-qn.sh
-- run_synthetic_vary-d.sh
-- run_synthetic_vary-n.sh
-- run_synthetic_vary-a.sh
-- run_synthetic_vary-s.sh
-- 
+#### Vary query extend experiment
+Execute the ```run_real_vary-qe.sh``` script.
 
-#### Examples
-- Vary query extend experiment (10 runs per query):
     ```sh 
     $ bash run_real_vary-qe.sh BOOKS 10 query 10
     $ bash run_real_vary-qe.sh BOOKS 10 query 10 sorted
@@ -84,6 +76,18 @@ Reports will be written in the ```outputs``` directory; one file for each experi
     $ bash run_real_vary-qe.sh TAXIS 17 level 10 sorted
     $ bash run_real_vary-qe.sh TAXIS 17 partition 10 sorted
     ```
+
+#### Vary number of queries experiment
+- 
+- run_real_vary-qn.sh
+- run_synthetic_vary-d.sh
+- run_synthetic_vary-n.sh
+- run_synthetic_vary-a.sh
+- run_synthetic_vary-s.sh
+- 
+
+#### Examples
+- Vary query extend experiment (10 runs per query):
 
     Vary batch size or number of queries experiment (10 runs per query):
     ```sh 
