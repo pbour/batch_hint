@@ -41,16 +41,20 @@ The experiments in the paper ran using the XOR workload.
 
 - #### Examples
 
-    ```sh QUERY-based
+    QUERY-based:
+    ```sh 
     $ ./query_batch.exec -m 10 -b query -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
-    ```sh QUERY-based with sorting
+    QUERY-based with sorting:
+    ```sh 
     $ ./query_batch.exec -m 10 -b query -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
-    ```sh LEVEL-based with sorting
+    LEVEL-based with sorting:
+    ```sh
     $ ./query_batch.exec -m 10 -b level -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
-    ```sh PARTITION-based with sorting
+    PARTITION-based with sorting
+    ```sh 
     $ ./query_batch.exec -m 10 -b partition -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
 
