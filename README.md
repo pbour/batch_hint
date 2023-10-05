@@ -34,16 +34,36 @@ The experiments in the paper ran using the XOR workload.
 ### Parameters
 | Parameter | Description | Comment |
 | ------ | ------ | ------ |
-| -m | set the number of bits for HINT | Real datasets: 10 for BOOKS, 12 for WEBKIT, 17 for TAXIS and GREEND |
+| -m | set the number of bits for HINT | Real datasets: 10 for BOOKS, 12 for WEBKIT, 17 for TAXIS, GREEND and all synthetics|
 | -b | select the batch evaluation strategy | "query" or "level" or "partition"; by default "query" |
 | -s | sort queries by their start | mandatory for the level-based and the partition-based strategies |
-| -r | set number of runs per query | by default 1
+| -r | set number of runs per query | by default 1 |
 
 - #### Examples
 
-    ```sh
+    ```sh QUERY-based
     $ ./query_batch.exec -m 10 -b query -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
-    ```sh
+    ```sh QUERY-based with sorting
     $ ./query_batch.exec -m 10 -b query -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
+    ```
+    ```sh LEVEL-based with sorting
+    $ ./query_batch.exec -m 10 -b level -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
+    ```
+    ```sh PARTITION-based with sorting
+    $ ./query_batch.exec -m 10 -b partition -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
+    ```
+
+## Experiments
+
+To reproduce all experiments in the paper use the following bash scripts:
+- run_real_vary-qe.sh
+- run_real_vary-qn.sh 
+
+Outpus will be writing in the ```outputs``` directoy
+
+### Real datasets
+
+    ```sh
+    $ ./query_batch.exec -m 10 -b query -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
