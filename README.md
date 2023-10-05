@@ -80,28 +80,26 @@ Execute the ```run_real_vary-qn.sh``` script.
     $ bash run_real_vary-qn.sh WEBKIT 12 level 10 sorted
     $ bash run_real_vary-qn.sh WEBKIT 12 partition 10 sorted
     ```
+### Synthetic datasets
 
-- run_synthetic_vary-d.sh
-- run_synthetic_vary-n.sh
-- run_synthetic_vary-a.sh
-- run_synthetic_vary-s.sh
-- 
+#### Vary domain size experiment
 
-#### Examples
-- Vary query extend experiment (10 runs per query):
+Execute the ```run_synthetic_vary-d.sh``` script.
 
-    Vary batch size or number of queries experiment:
-
- ### Synthetic datasets
-
- - #### Examples
-    Vary domain size experiment (10 runs per query):
     ```sh 
     $ bash run_synthetic_vary-d.sh 17 query 10
     $ bash run_synthetic_vary-d.sh 17 query 10 sorted
     $ bash run_synthetic_vary-d.sh 17 level 10 sorted
     $ bash run_synthetic_vary-d.sh 17 partition 10 sorted
     ```
+
+- run_synthetic_vary-n.sh
+- run_synthetic_vary-a.sh
+- run_synthetic_vary-s.sh
+- 
+
+ - #### Examples  (10 runs per query)
+    
 
     Vary dataset cardinality experiment (10 runs per query):
     ```sh 
