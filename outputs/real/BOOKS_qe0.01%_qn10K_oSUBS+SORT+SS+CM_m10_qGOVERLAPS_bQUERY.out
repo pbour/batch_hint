@@ -1,0 +1,39 @@
+
+Batch Processing Selection Queries
+==================================
+
+Input info
+File                      : inputs/real/BOOKS.inp
+Num of intervals          : 2312602
+Domain size               : 31507200
+Avg interval extent [%]   : 6.986712
+
+HINT^m info & stats
+Variant                   : subs+sort+SS+CM
+Num of bits               : 10
+Num of partitions         : 2047
+Num of Originals (In)     : 57522
+Num of Originals (Aft)    : 2255080
+Num of replicas (In)      : 2255080
+Num of replicas (Aft)     : 7291502
+Num of empty partitions   : 218
+Avg partition size        : 6483.971680
+Read VM [Bytes]           : -6148914695608983552
+Read RSS [Bytes]          : 0
+Indexing time [secs]      : 0.752334
+
+Queries info
+File                      : queries/real/BOOKS_qe0.01%_qn10K.qry
+Num of queries            : 10000
+Avg query extent [%]      : 0.009998
+Predicate type            : gOVERLAPS
+Sorting time [secs]       : 0
+
+Evaluation report
+Index traversing approach : bottom-up
+Batch strategy            : QUERY-based
+Queries sorted            : no
+Num of runs per query     : 10
+Total result [XOR]        : 20533569415
+Total querying time [secs]: 0.284256
+
