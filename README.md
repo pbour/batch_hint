@@ -85,45 +85,52 @@ Execute the ```run_real_vary-qn.sh``` script.
 #### Vary domain size experiment
 
 Execute the ```run_synthetic_vary-d.sh``` script.
-
-    ```sh 
     $ bash run_synthetic_vary-d.sh 17 query 10
     $ bash run_synthetic_vary-d.sh 17 query 10 sorted
     $ bash run_synthetic_vary-d.sh 17 level 10 sorted
     $ bash run_synthetic_vary-d.sh 17 partition 10 sorted
-    ```
 
-- run_synthetic_vary-n.sh
-- run_synthetic_vary-a.sh
-- run_synthetic_vary-s.sh
-- 
+#### Vary dataset cardinality experiment
 
- - #### Examples  (10 runs per query)
-    
+Execute the ```run_synthetic_vary-n.sh``` script.
 
-    Vary dataset cardinality experiment (10 runs per query):
-    ```sh 
     $ bash run_synthetic_vary-c.sh 17 query 10
     $ bash run_synthetic_vary-c.sh 17 query 10 sorted
     $ bash run_synthetic_vary-c.sh 17 level 10 sorted
     $ bash run_synthetic_vary-c.sh 17 partition 10 sorted
-    ```
 
-    Vary interval length alpha experiment (10 runs per query):
-    ```sh 
+#### Vary interval length alpha experiment 
+
+Execute the ```run_synthetic_vary-a.sh``` script.
     $ bash run_synthetic_vary-a.sh 17 query 10
     $ bash run_synthetic_vary-a.sh 17 query 10 sorted
     $ bash run_synthetic_vary-a.sh 17 level 10 sorted
     $ bash run_synthetic_vary-a.sh 17 partition 10 sorted
 
-    ```
 
-    Vary interval position sigma experiment (10 runs per query):
-    ```sh 
+#### Vary interval position sigma experiment
+
+Execute the ```run_synthetic_vary-s.sh``` script.
     $ bash run_synthetic_vary-s.sh 17 query 10
     $ bash run_synthetic_vary-s.sh 17 query 10 sorted
     $ bash run_synthetic_vary-s.sh 17 level 10 sorted
     $ bash run_synthetic_vary-s.sh 17 partition 10 sorted
+
+
+ - #### Examples  (10 runs per query)
+    
+
+     (10 runs per query):
+    ```sh 
+    ```
+
+    Vary  (10 runs per query):
+    ```sh 
+
+    ```
+
+     (10 runs per query):
+    ```sh 
 
     ```
 
