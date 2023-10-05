@@ -23,3 +23,4 @@ do
                 ./query_batch.exec -m $2 -b $3 -r $4 -s $ifile $qfile > $ofile
         fi
 done
+
