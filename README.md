@@ -60,9 +60,9 @@ Reports will be written in the ```outputs``` directory; one file for each experi
 ### Real datasets
 Execute experiments: 
 - vary query extent, and
-- vary number of queries or batch size
+- vary # queries (batch size)
 
-for all datasets - repeat each test 10 times.
+Repeat each test 10 times.
 ```
 $ bash run_all_real.sh 10
 ```
@@ -74,8 +74,8 @@ Execute experiments:
 - vary α (interval length)
 - vary σ (interval position)
 - vary extent
-- vary number of queries or batch size
+- vary # queries (batch size)
 ```
-$ bash run_all_real.sh 10
+$ bash run_all_sythntic.sh 10
 ```
-repeat each test 10 times.
+Repeat each test 10 times.
