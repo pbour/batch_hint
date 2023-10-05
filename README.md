@@ -77,6 +77,8 @@ Reports will be written in the ```outputs``` directory; one file for each experi
     ```
 
  ### Synthetic datasets
+
+ - #### Examples
     Vary domain size experiment (10 runs per query):
     ```sh 
     $ bash run_synthetic_vary-d.sh 17 query 10
