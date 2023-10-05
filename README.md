@@ -74,7 +74,7 @@ Execute experiments:
 - vary dataset cardinality
 - vary α (interval length)
 - vary σ (interval position)
-- vary extent
+- vary query extent
 - vary # queries (batch size)
 ```
 $ bash run_all_synthetic.sh 10
