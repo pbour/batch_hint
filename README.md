@@ -84,7 +84,7 @@ Execute the ```run_real_vary-qn.sh``` script.
 
 #### Vary domain size experiment
 
-Execute the ```run_synthetic_vary-d.sh``` script.
+Use the ```run_synthetic_vary-d.sh``` script for each strategy:
     ```
     $ bash run_synthetic_vary-d.sh 17 query 10
     $ bash run_synthetic_vary-d.sh 17 query 10 sorted
@@ -94,30 +94,34 @@ Execute the ```run_synthetic_vary-d.sh``` script.
 
 #### Vary dataset cardinality experiment
 
-Execute the ```run_synthetic_vary-n.sh``` script.
-
+Use the ```run_synthetic_vary-n.sh``` script for each strategy:
+    ```
     $ bash run_synthetic_vary-c.sh 17 query 10
     $ bash run_synthetic_vary-c.sh 17 query 10 sorted
     $ bash run_synthetic_vary-c.sh 17 level 10 sorted
     $ bash run_synthetic_vary-c.sh 17 partition 10 sorted
+    ```
 
 #### Vary interval length alpha experiment 
 
-Execute the ```run_synthetic_vary-a.sh``` script.
+Execute the ```run_synthetic_vary-a.sh``` script for each strategy:
+    ```
     $ bash run_synthetic_vary-a.sh 17 query 10
     $ bash run_synthetic_vary-a.sh 17 query 10 sorted
     $ bash run_synthetic_vary-a.sh 17 level 10 sorted
     $ bash run_synthetic_vary-a.sh 17 partition 10 sorted
+    ```
 
 
 #### Vary interval position sigma experiment
 
-Execute the ```run_synthetic_vary-s.sh``` script.
+Execute the ```run_synthetic_vary-s.sh``` script for each strategy:
+    ```
     $ bash run_synthetic_vary-s.sh 17 query 10
     $ bash run_synthetic_vary-s.sh 17 query 10 sorted
     $ bash run_synthetic_vary-s.sh 17 level 10 sorted
     $ bash run_synthetic_vary-s.sh 17 partition 10 sorted
-
+    ```
 
  - #### Examples  (10 runs per query)
     
