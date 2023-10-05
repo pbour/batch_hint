@@ -68,14 +68,43 @@ Reports will be writing in the ```outputs``` directory; one file for each experi
 
 - ### Real datasets
 
-    Vary query extend (10 runs per query):
+    Vary query extend experiment (10 runs per query):
     ```sh 
     $ bash run_real_vary-qe.sh WEBKIT 12 query 10
     ```
 
-    Vary batch size or number of queries (10 runs per query):
+    Vary batch size or number of queries experiment (10 runs per query):
     ```sh 
     $ bash run_real_vary-qn.sh WEBKIT 12 query 10
     ```
 
 - ### Synthetic datasets
+    Vary domain size experiment (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    ```
+
+    Vary dataset cardinality experiment (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    ```
+
+    Vary interval length alpha experiment (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    ```
+
+    Vary interval position sigma experiment (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    ```
+
+    Vary query extent experiment (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    ```
+
+    Vary batch size or number of queries experiment (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    ```
