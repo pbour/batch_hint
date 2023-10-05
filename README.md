@@ -54,104 +54,10 @@ Directory ```outputs``` includes the reports after executing the bash scripts th
 
 ## Experiments
 
-To reproduce all experiments in the paper use the pre-created ```bash``` scripts.
+To reproduce all experiments follow the follow instructions.
 Reports will be written in the ```outputs``` directory; one file for each experiment.
 
 ### Real datasets
-
-#### Vary query extend experiment
-Execute the ```run_real_vary-qe.sh``` script.
-
-- Example for WEBKIT  (10 runs per query):
-    ```sh 
-    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
-    $ bash run_real_vary-qe.sh WEBKIT 12 query 10 sorted
-    $ bash run_real_vary-qe.sh WEBKIT 12 level 10 sorted
-    $ bash run_real_vary-qe.sh WEBKIT 12 partition 10 sorted
-    ```
-
-#### Vary number of queries experiment
-Execute the ```run_real_vary-qn.sh``` script.
-
-- Example for WEBKIT  (10 runs per query):
-    ```sh 
-    $ bash run_real_vary-qn.sh WEBKIT 12 query 10
-    $ bash run_real_vary-qn.sh WEBKIT 12 query 10 sorted
-    $ bash run_real_vary-qn.sh WEBKIT 12 level 10 sorted
-    $ bash run_real_vary-qn.sh WEBKIT 12 partition 10 sorted
-    ```
-### Synthetic datasets
-
-#### Vary domain size experiment
-
-Use the ```run_synthetic_vary-d.sh``` script for each strategy:
-    ```
-    $ bash run_synthetic_vary-d.sh 17 query 10
-    $ bash run_synthetic_vary-d.sh 17 query 10 sorted
-    $ bash run_synthetic_vary-d.sh 17 level 10 sorted
-    $ bash run_synthetic_vary-d.sh 17 partition 10 sorted
-    ```
-
-#### Vary dataset cardinality experiment
-
-Use the ```run_synthetic_vary-n.sh``` script for each strategy:
-    ```
-    $ bash run_synthetic_vary-c.sh 17 query 10
-    $ bash run_synthetic_vary-c.sh 17 query 10 sorted
-    $ bash run_synthetic_vary-c.sh 17 level 10 sorted
-    $ bash run_synthetic_vary-c.sh 17 partition 10 sorted
-    ```
-
-#### Vary interval length alpha experiment 
-
-Execute the ```run_synthetic_vary-a.sh``` script for each strategy:
-    ```
-    $ bash run_synthetic_vary-a.sh 17 query 10
-    $ bash run_synthetic_vary-a.sh 17 query 10 sorted
-    $ bash run_synthetic_vary-a.sh 17 level 10 sorted
-    $ bash run_synthetic_vary-a.sh 17 partition 10 sorted
-    ```
-
-
-#### Vary interval position sigma experiment
-
-Execute the ```run_synthetic_vary-s.sh``` script for each strategy:
-    ```
-    $ bash run_synthetic_vary-s.sh 17 query 10
-    $ bash run_synthetic_vary-s.sh 17 query 10 sorted
-    $ bash run_synthetic_vary-s.sh 17 level 10 sorted
-    $ bash run_synthetic_vary-s.sh 17 partition 10 sorted
-    ```
-
- - #### Examples  (10 runs per query)
-    
-
-     (10 runs per query):
-    ```sh 
-    ```
-
-    Vary  (10 runs per query):
-    ```sh 
-
-    ```
-
-     (10 runs per query):
-    ```sh 
-
-    ```
-
-    Vary query extent experiment (10 runs per query):
-    ```sh 
-    $ bash run_synthetic_vary-qe.sh 17 query 10
-    $ bash run_synthetic_vary-qe.sh 17 query 10 sorted
-    $ bash run_synthetic_vary-qe.sh 17 level 10 sorted
-    $ bash run_synthetic_vary-qe.sh 17 partition 10 sorted
-    ```
-
-    Vary batch size or number of queries experiment (10 runs per query):
-    ```sh 
-    $ bash run_synthetic_vary-qn.sh 17 query 10
-    $ bash run_synthetic_vary-qn.sh 17 query 10 sorted
-    $ bash run_synthetic_vary-qn.sh 17 level 10 sorted
-    $ bash run_synthetic_vary-qn.sh 17 partition 10 sorted
-    ```
+```
+$ bash run_all_real.sh 10
+```
