@@ -58,13 +58,13 @@ Reports will be writing in the ```outputs``` directory; one file for each experi
 
 ### Real datasets
 
-Use the run_real_vary-qe.sh Vary query extend experiment (10 runs per query):
-
 - #### Examples
+    Vary query extend experiment (10 runs per query):
     ```sh 
     $ bash run_real_vary-qe.sh WEBKIT 12 query 10
     $ bash run_real_vary-qe.sh WEBKIT 12 query 10 sorted
     $ bash run_real_vary-qe.sh WEBKIT 12 level 10 sorted
+    $ bash run_real_vary-qe.sh WEBKIT 12 partition 10 sorted
     ```
 
     Vary batch size or number of queries experiment (10 runs per query):
