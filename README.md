@@ -17,16 +17,6 @@ Directory ```queries``` includes all queries used in the experiments for both re
 ### Outputs
 Directory ```outputs``` includes the reports after executing the bash scripts that reproduce the experiments in the paper.
 
-
-## Workloads
-The experiments run code supports two types of workload:
-- Counting the qualifying records, or
-- XOR'ing between their ids
-
-By default the XOR workload is selected. You can switch to counting by commenting out Line 52 for the ``WORKLOAD_XOR`` flag and uncommenting Line 51 for the `WORKLOAD_COUNT` flag in def_global.h; remember to use `make clean` after resetting the flag.
-The experiments in the paper ran using the XOR workload.
-
-
 ## Usage
 
 ### To execute an evaluation strategy use the ```query_batch.exec``` executable:
