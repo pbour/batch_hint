@@ -54,7 +54,6 @@ PARTITION-based with sorting
 ## Experiments
 
 To reproduce all experiments in the paper follow the instructions below.
-
 Reports will be written in the ```outputs``` directory; one file for each experiment.
 
 ### Real datasets
