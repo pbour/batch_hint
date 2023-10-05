@@ -6,16 +6,16 @@
 - Boost Library 
 
 
-## Essential directories
+## Essentials
 
 ### Inputs
-Download and extract the datasets from irectory  ```inputs``` includes the datasets used in the experiments and ```queries``` the query batches. 
-- BOOKS.inp
-- AARHUS-BOOKS_2013_20k.qry
+Download and extract the archive from . A ```inputs``` directory will be automatically created which includes all datasets used in the experiments, both real and synthtic. 
 
+### Queries
+Directory ```queries``` includes all queries used in the experiments for both real and synthetic datasets.
 
-## Compile
-Compile using ```make all``` or simply ```make```.
+### Outputs
+Directory ```outputs``` includes 
 
 
 ## Workloads
@@ -64,10 +64,18 @@ To reproduce all experiments in the paper use the following bash scripts:
 - run_real_vary-qe.sh
 - run_real_vary-qn.sh 
 
-Outpus will be writing in the ```outputs``` directoy
+Reports will be writing in the ```outputs``` directory; one file for each experiment.
 
 ### Real datasets
 
-    ```sh
-    $ ./query_batch.exec -m 10 -b query -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
+    Vary query extend (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
     ```
+
+    Vary batch size or number of queries (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qn.sh WEBKIT 12 query 10
+    ```
+
+### Synthetic datasets
