@@ -11,6 +11,7 @@ Source code for the "HINT on Steroids: Batch Query Processing for Interval Data"
 
 ### Inputs
 All real and synthetic datasets used in the paper are available on https://drive.google.com/drive/folders/1RY1v6Au7k_IFKNr6UE8y4djVfkvpO4Vb?usp=sharing.
+
 Download ```real.tar.gz``` and ```synthetic.tar.gz``` archives and extract them inside the ```inputs``` directory.
 A ```real``` and ```synthetic``` sub-directory will be automatically created to include each dataset. 
 
