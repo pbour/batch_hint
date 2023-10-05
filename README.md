@@ -54,10 +54,11 @@ Directory ```outputs``` includes the reports after executing the bash scripts th
 
 ## Experiments
 
-To reproduce all experiments follow the follow instructions.
+To reproduce all experiments follow the instructions below.
 Reports will be written in the ```outputs``` directory; one file for each experiment.
 
 ### Real datasets
+Execute the "vary extent" and "# queries" experiments, for all datasets - each experiments is repeated 10 times.
 ```
 $ bash run_all_real.sh 10
 ```
