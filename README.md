@@ -62,25 +62,25 @@ Reports will be written in the ```outputs``` directory; one file for each experi
 #### Vary query extend experiment
 Execute the ```run_real_vary-qe.sh``` script.
 
-- Example for WEBKIT
+- Example for WEBKIT  (10 runs per query):
     ```sh 
-    $ bash run_real_vary-qe.sh BOOKS 10 query 10
-    $ bash run_real_vary-qe.sh BOOKS 10 query 10 sorted
-    $ bash run_real_vary-qe.sh BOOKS 10 level 10 sorted
-    $ bash run_real_vary-qe.sh BOOKS 10 partition 10 sorted
     $ bash run_real_vary-qe.sh WEBKIT 12 query 10
     $ bash run_real_vary-qe.sh WEBKIT 12 query 10 sorted
     $ bash run_real_vary-qe.sh WEBKIT 12 level 10 sorted
     $ bash run_real_vary-qe.sh WEBKIT 12 partition 10 sorted
-    $ bash run_real_vary-qe.sh TAXIS 17 query 10
-    $ bash run_real_vary-qe.sh TAXIS 17 query 10 sorted
-    $ bash run_real_vary-qe.sh TAXIS 17 level 10 sorted
-    $ bash run_real_vary-qe.sh TAXIS 17 partition 10 sorted
     ```
 
 #### Vary number of queries experiment
-- 
-- run_real_vary-qn.sh
+Execute the ```run_real_vary-qn.sh``` script.
+
+- Example for WEBKIT  (10 runs per query):
+    ```sh 
+    $ bash run_real_vary-qn.sh WEBKIT 12 query 10
+    $ bash run_real_vary-qn.sh WEBKIT 12 query 10 sorted
+    $ bash run_real_vary-qn.sh WEBKIT 12 level 10 sorted
+    $ bash run_real_vary-qn.sh WEBKIT 12 partition 10 sorted
+    ```
+
 - run_synthetic_vary-d.sh
 - run_synthetic_vary-n.sh
 - run_synthetic_vary-a.sh
@@ -90,13 +90,7 @@ Execute the ```run_real_vary-qe.sh``` script.
 #### Examples
 - Vary query extend experiment (10 runs per query):
 
-    Vary batch size or number of queries experiment (10 runs per query):
-    ```sh 
-    $ bash run_real_vary-qn.sh WEBKIT 12 query 10
-    $ bash run_real_vary-qn.sh WEBKIT 12 query 10 sorted
-    $ bash run_real_vary-qn.sh WEBKIT 12 level 10 sorted
-    $ bash run_real_vary-qn.sh WEBKIT 12 partition 10 sorted
-    ```
+    Vary batch size or number of queries experiment:
 
  ### Synthetic datasets
 
