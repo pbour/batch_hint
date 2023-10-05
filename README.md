@@ -25,7 +25,7 @@ Directory ```outputs``` includes the reports after executing the bash scripts th
 
 ## Usage
 
-To execute an evaluation strategy use the ```query_batch.exec``` executable:
+To execute an evaluation strategy use the ```query_batch.exec``` executable.
 
 ### Parameters
 | Parameter | Description | Comment |
