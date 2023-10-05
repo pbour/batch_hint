@@ -58,17 +58,24 @@ To reproduce all experiments follow the instructions below.
 Reports will be written in the ```outputs``` directory; one file for each experiment.
 
 ### Real datasets
-Execute the 
+Execute experiments: 
 - vary query extent, and
 - vary number of queries or batch size
 
-experiments, for all datasets - repeat each experiment 10 times.
+for all datasets - repeat each test 10 times.
 ```
 $ bash run_all_real.sh 10
 ```
 
 ### Synthetic datasets
-Execute the "vary extent" and "# queries" experiments, for all datasets - repeat each experiment 10 times.
+Execute experiments:
+- vary domain size
+- vary dataset cardinality
+- vary α (interval length)
+- vary σ (interval position)
+- vary extent
+- vary number of queries or batch size
 ```
 $ bash run_all_real.sh 10
 ```
+repeat each test 10 times.
