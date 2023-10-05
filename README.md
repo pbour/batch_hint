@@ -12,10 +12,11 @@ Compile the source code using ```make all``` or simple ```make```.
 ## Essentials
 
 ### Inputs
-All real and synthetic datasets used in the paper are available on https://drive.google.com/drive/folders/1RY1v6Au7k_IFKNr6UE8y4djVfkvpO4Vb?usp=sharing.
 
 Download ```real.tar.gz``` and ```synthetic.tar.gz``` archives and extract them inside the ```inputs``` directory.
 A ```real``` and ```synthetic``` sub-directory will be automatically created to include each dataset. 
+
+- Real datasets are available on https://drive.google.com/file/d/1MRe19YCCY99bc8F6YC-U9bjpU5s_h4d7/view?usp=share_link
 
 ### Queries
 Directory ```queries``` includes all queries used in the experiments for both real and synthetic datasets.
