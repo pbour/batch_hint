@@ -15,7 +15,7 @@ Download and extract the archive from . A ```inputs``` directory will be automat
 Directory ```queries``` includes all queries used in the experiments for both real and synthetic datasets.
 
 ### Outputs
-Directory ```outputs``` includes 
+Directory ```outputs``` includes the reports after executing the bash scripts that reproduce the experiments in the paper.
 
 
 ## Workloads
