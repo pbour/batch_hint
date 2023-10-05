@@ -62,6 +62,7 @@ Reports will be written in the ```outputs``` directory; one file for each experi
 #### Vary query extend experiment
 Execute the ```run_real_vary-qe.sh``` script.
 
+- Example for WEBKIT
     ```sh 
     $ bash run_real_vary-qe.sh BOOKS 10 query 10
     $ bash run_real_vary-qe.sh BOOKS 10 query 10 sorted
