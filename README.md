@@ -6,7 +6,7 @@ Source code for the "HINT on Steroids: Batch Query Processing for Interval Data"
 - g++/gcc
 - Boost Library 
 
-## Complie
+## Compile
 Compile the source code using ```make all``` or simple ```make```.
 
 ## Essentials
