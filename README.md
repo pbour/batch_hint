@@ -1,5 +1,6 @@
 # HINT on Steroids: Batch Query Processing for Interval Data
 
+Source code for the "HINT on Steroids: Batch Query Processing for Interval Data" paper
 
 ## Dependencies
 - g++/gcc
