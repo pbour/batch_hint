@@ -71,9 +71,9 @@ Reports will be written in the ```outputs``` directory; one file for each experi
     Vary batch size or number of queries experiment (10 runs per query):
     ```sh 
     $ bash run_real_vary-qn.sh WEBKIT 12 query 10
-    $ bash run_real_vary-qn.sh WEBKIT 12 query 10 sort
-    $ bash run_real_vary-qn.sh WEBKIT 12 level 10 sort
-    $ bash run_real_vary-qn.sh WEBKIT 12 partition 10 sort
+    $ bash run_real_vary-qn.sh WEBKIT 12 query 10 sorted
+    $ bash run_real_vary-qn.sh WEBKIT 12 level 10 sorted
+    $ bash run_real_vary-qn.sh WEBKIT 12 partition 10 sorted
     ```
 
  ### Synthetic datasets
