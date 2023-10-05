@@ -56,11 +56,15 @@ To reproduce all experiments in the paper use the following bash scripts:
 
 Reports will be writing in the ```outputs``` directory; one file for each experiment.
 
-- ### Real datasets
+### Real datasets
 
-    Vary query extend experiment (10 runs per query):
+Use the run_real_vary-qe.sh Vary query extend experiment (10 runs per query):
+
+- #### Examples
     ```sh 
     $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    $ bash run_real_vary-qe.sh WEBKIT 12 query 10 sorted
+    $ bash run_real_vary-qe.sh WEBKIT 12 level 10 sorted
     ```
 
     Vary batch size or number of queries experiment (10 runs per query):
@@ -68,7 +72,7 @@ Reports will be writing in the ```outputs``` directory; one file for each experi
     $ bash run_real_vary-qn.sh WEBKIT 12 query 10
     ```
 
-- ### Synthetic datasets
+ ### Synthetic datasets
     Vary domain size experiment (10 runs per query):
     ```sh 
     $ bash run_real_vary-qe.sh WEBKIT 12 query 10
