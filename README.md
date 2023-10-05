@@ -16,7 +16,8 @@ Compile the source code using ```make all``` or simple ```make```.
 Download ```real.tar.gz``` and ```synthetic.tar.gz``` archives and extract them inside the ```inputs``` directory.
 A ```real``` and ```synthetic``` sub-directory will be automatically created to include each dataset. 
 
-- Real datasets are available on https://drive.google.com/file/d/1MRe19YCCY99bc8F6YC-U9bjpU5s_h4d7/view?usp=share_link
+- Real datasets, https://drive.google.com/file/d/1MRe19YCCY99bc8F6YC-U9bjpU5s_h4d7/view?usp=share_link
+- Synthetic datasets, ???
 
 ### Queries
 Directory ```queries``` includes all queries used in the experiments for both real and synthetic datasets.
