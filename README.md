@@ -79,30 +79,50 @@ Reports will be written in the ```outputs``` directory; one file for each experi
  ### Synthetic datasets
     Vary domain size experiment (10 runs per query):
     ```sh 
-    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    $ bash run_synthetic_vary-d.sh 17 query 10
+    $ bash run_synthetic_vary-d.sh 17 query 10 sorted
+    $ bash run_synthetic_vary-d.sh 17 level 10 sorted
+    $ bash run_synthetic_vary-d.sh 17 partition 10 sorted
     ```
 
     Vary dataset cardinality experiment (10 runs per query):
     ```sh 
-    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    $ bash run_synthetic_vary-c.sh 17 query 10
+    $ bash run_synthetic_vary-c.sh 17 query 10 sorted
+    $ bash run_synthetic_vary-c.sh 17 level 10 sorted
+    $ bash run_synthetic_vary-c.sh 17 partition 10 sorted
     ```
 
     Vary interval length alpha experiment (10 runs per query):
     ```sh 
-    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    $ bash run_synthetic_vary-a.sh 17 query 10
+    $ bash run_synthetic_vary-a.sh 17 query 10 sorted
+    $ bash run_synthetic_vary-a.sh 17 level 10 sorted
+    $ bash run_synthetic_vary-a.sh 17 partition 10 sorted
+
     ```
 
     Vary interval position sigma experiment (10 runs per query):
     ```sh 
-    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    $ bash run_synthetic_vary-s.sh 17 query 10
+    $ bash run_synthetic_vary-s.sh 17 query 10 sorted
+    $ bash run_synthetic_vary-s.sh 17 level 10 sorted
+    $ bash run_synthetic_vary-s.sh 17 partition 10 sorted
+
     ```
 
     Vary query extent experiment (10 runs per query):
     ```sh 
-    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    $ bash run_synthetic_vary-qe.sh 17 query 10
+    $ bash run_synthetic_vary-qe.sh 17 query 10 sorted
+    $ bash run_synthetic_vary-qe.sh 17 level 10 sorted
+    $ bash run_synthetic_vary-qe.sh 17 partition 10 sorted
     ```
 
     Vary batch size or number of queries experiment (10 runs per query):
     ```sh 
-    $ bash run_real_vary-qe.sh WEBKIT 12 query 10
+    $ bash run_synthetic_vary-qn.sh 17 query 10
+    $ bash run_synthetic_vary-qn.sh 17 query 10 sorted
+    $ bash run_synthetic_vary-qn.sh 17 level 10 sorted
+    $ bash run_synthetic_vary-qn.sh 17 partition 10 sorted
     ```
