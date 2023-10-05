@@ -9,7 +9,7 @@
 ## Essentials
 
 ### Inputs
-Download and extract the archive from . A ```inputs``` directory will be automatically created which includes all datasets used in the experiments, both real and synthtic. 
+Download and extract the archive from . An ```inputs``` directory will be automatically created which includes all datasets used in the experiments, both real and synthtic. 
 
 ### Queries
 Directory ```queries``` includes all queries used in the experiments for both real and synthetic datasets.
