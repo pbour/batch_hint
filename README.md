@@ -29,7 +29,7 @@ The experiments in the paper ran using the XOR workload.
 
 ## Usage
 
-### To execute a batch strategy use the ``query_batch.exec`` executable:
+### To execute an evaluation strategy use the ```query_batch.exec``` executable:
 
 ### Parameters
 | Parameter | Description | Comment |
@@ -66,7 +66,7 @@ To reproduce all experiments in the paper use the following bash scripts:
 
 Reports will be writing in the ```outputs``` directory; one file for each experiment.
 
-### Real datasets
+- ### Real datasets
 
     Vary query extend (10 runs per query):
     ```sh 
@@ -78,4 +78,4 @@ Reports will be writing in the ```outputs``` directory; one file for each experi
     $ bash run_real_vary-qn.sh WEBKIT 12 query 10
     ```
 
-### Synthetic datasets
+- ### Synthetic datasets
