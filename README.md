@@ -55,7 +55,7 @@ To reproduce all experiments in the paper use the following bash scripts:
 - run_real_vary-qe.sh
 - run_real_vary-qn.sh 
 
-Reports will be writing in the ```outputs``` directory; one file for each experiment.
+Reports will be written in the ```outputs``` directory; one file for each experiment.
 
 ### Real datasets
 
