@@ -28,7 +28,7 @@ To execute an evaluation strategy use the ```query_batch.exec``` executable:
 ### Parameters
 | Parameter | Description | Comment |
 | ------ | ------ | ------ |
-| -m | set the number of bits for HINT | in experiments: 10 for BOOKS, 12 for WEBKIT, 17 for TAXIS, GREEND and all synthetics|
+| -m | set the number of bits for HINT | in experiments: 10 for BOOKS, 12 for WEBKIT, 17 for TAXIS, 17 for GREEND and 17 for all synthetics|
 | -b | select the batch evaluation strategy | "query" or "level" or "partition"; by default "query" |
 | -s | sort queries by their start | mandatory for the level-based and the partition-based strategies |
 | -r | set number of runs per query | by default 1 |
