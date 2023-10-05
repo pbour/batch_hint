@@ -36,19 +36,19 @@ To execute an evaluation strategy use the ```query_batch.exec``` executable:
 ### Examples
 
    - QUERY-based:
-    ```sh 
+    ```
     $ ./query_batch.exec -m 10 -b query -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
     - QUERY-based with sorting:
-    ```sh 
+    ```
     $ ./query_batch.exec -m 10 -b query -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
     - LEVEL-based with sorting:
-    ```sh
+    ```
     $ ./query_batch.exec -m 10 -b level -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
     - PARTITION-based with sorting
-    ```sh 
+    ```
     $ ./query_batch.exec -m 10 -b partition -s -r 10 inputs/real/BOOKS.inp queries/real/BOOKS_qe0.1%_qn10K.qry
     ```
 
