@@ -24,7 +24,7 @@ Directory ```outputs``` includes the reports after executing the bash scripts th
 ### Parameters
 | Parameter | Description | Comment |
 | ------ | ------ | ------ |
-| -m | set the number of bits for HINT | Real datasets: 10 for BOOKS, 12 for WEBKIT, 17 for TAXIS, GREEND and all synthetics|
+| -m | set the number of bits for HINT | in experiments: 10 for BOOKS, 12 for WEBKIT, 17 for TAXIS, GREEND and all synthetics|
 | -b | select the batch evaluation strategy | "query" or "level" or "partition"; by default "query" |
 | -s | sort queries by their start | mandatory for the level-based and the partition-based strategies |
 | -r | set number of runs per query | by default 1 |
