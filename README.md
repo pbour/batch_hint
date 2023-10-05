@@ -76,6 +76,6 @@ Execute experiments:
 - vary extent
 - vary # queries (batch size)
 ```
-$ bash run_all_sythntic.sh 10
+$ bash run_all_synthetic.sh 10
 ```
 Repeat each test 10 times.
