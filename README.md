@@ -17,7 +17,7 @@ Download ```real.tar.gz``` and ```synthetic.tar.gz``` archives and extract them 
 A ```real``` and ```synthetic``` sub-directory will be automatically created to include each dataset. 
 
 - Real datasets, https://drive.google.com/file/d/1MRe19YCCY99bc8F6YC-U9bjpU5s_h4d7/view?usp=share_link
-- Synthetic datasets, [https://drive.google.com/file/d/1artzmR_pw0batwRKH6jwAWdZ3MN0V9sb/view?usp=sharing](https://drive.google.com/file/d/1wlSYbY7nsbGoQziUTNx9W2J0kkZD0GwS/view?usp=sharing)
+- Synthetic datasets, https://drive.google.com/file/d/1wlSYbY7nsbGoQziUTNx9W2J0kkZD0GwS/view?usp=sharing
 
 ### Queries
 Directory ```queries``` includes all queries used in the experiments for both real and synthetic datasets.
