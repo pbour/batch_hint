@@ -1,5 +1,5 @@
 CC      = g++
-CFLAGS  = -O3 -mavx -march=native -std=c++14 -w -fopenmp
+CFLAGS  = -O3 -mavx -march=native -std=c++14 -w
 LDFLAGS =
 
 SOURCES = utils.cpp containers/relation.cpp containers/offsets_templates.cpp containers/offsets.cpp indices/hierarchicalindex.cpp indices/hint_m_subs+sort+ss+cm.cpp
