@@ -43,7 +43,6 @@
 #include <chrono>
 #include <unistd.h>
 #include <tuple>
-#include <omp.h>
 using namespace std;
 
 
