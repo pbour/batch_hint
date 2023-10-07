@@ -13,7 +13,7 @@ b=$(echo $2 | tr a-z A-Z)
 
 for qn in 5 10 50 100
 do
-        qfile="queries/synthetic/synthetic_qe0.1%_qn${qn}K.qry"
+        qfile="queries/synthetic/synthetic_d128M_qe0.1%_qn${qn}K.qry"
         if [ "$#" -eq 3 ]; then
                 ofile="outputs/synthetic/${prefix}_qe0.1%_qn${qn}K_oSUBS+SORT+SS+CM_m$1_qGOVERLAPS_b${b}.out"
                 echo "./query_batch.exec -m $1 -b $b -r $3 $ifile $qfile > $ofile"
