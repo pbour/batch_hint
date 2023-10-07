@@ -8,12 +8,12 @@ if [ "$#" -lt 3 ]; then
 fi
 
 b=$(echo $2 | tr a-z A-Z)
-qfile="queries/synthetic/synthetic_qe0.1%_qn1K.qry"
 
 for d in 32 64 128 256 512
 do
         prefix="synthetic_d${d}M_n10M_a1.2_s1M"
         ifile="inputs/synthetic/${prefix}.inp"
+        qfile="queries/synthetic/synthetic_d${d}M_qe0.1%_qn1K.qry"
         if [ "$#" -eq 3 ]; then
                 ofile="outputs/synthetic/${prefix}_qe0.1%_qn1K_oSUBS+SORT+SS+CM_m$1_qGOVERLAPS_b${b}.out"
                 echo "./query_batch.exec -m $1 -b $b -r $3 $ifile $qfile > $ofile"
