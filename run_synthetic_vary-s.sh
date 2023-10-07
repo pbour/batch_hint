@@ -8,7 +8,7 @@ if [ "$#" -lt 3 ]; then
 fi
 
 b=$(echo $2 | tr a-z A-Z)
-qfile="queries/synthetic/synthetic_qe0.1%_qn1K.qry"
+qfile="queries/synthetic/synthetic_d128M_qe0.1%_qn1K.qry"
 
 for s in 0.01 0.1 5 10
 do
