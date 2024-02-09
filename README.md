@@ -2,6 +2,8 @@
 
 Source code for the "HINT on Steroids: Batch Query Processing for Interval Data" paper
 
+A wide range of applications manage interval data. HINT was re- cently proposed to hierarchically index intervals in main memory. The index outperforms competitive structures by a wide margin, but under its current setup, HINT is able to service only single query requests. In practice however, real systems receive a large number of queries at the same time and so, our focus in this paper is on batch query processing. We propose two novel evaluation strategies termed level-based and partition-based, which both work in a per-level fashion, i.e., all queries for an index level are computed before moving to the next level. The new strategies op- erate in a cache-aware fashion to reduce the cache misses caused by climbing the index hierarchy or accessing multiple partitions per level, and to decrease the total execution time for a query batch. Our experimental analysis with both real and synthetic datasets showed that our batch processing strategies always out- perform a baseline that executes queries in a serial fashion, and that partition-based is overall the most efficient strategy.
+
 ## Dependencies
 - g++/gcc
 - Boost Library 
